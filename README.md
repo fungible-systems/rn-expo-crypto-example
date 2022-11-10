@@ -1,15 +1,9 @@
-# Expo Router Example
+# Expo with quick-crypto and noble libs
 
-Use [`expo-router`](https://expo.github.io/router) to build native navigation using files in the `app/` directory.
+## usage
 
-## 🚀 How to use
+- Follow expo instructions to get your system set up: https://docs.expo.dev/get-started/installation/
+- `yarn install`
+- `yarn expo:prebuild`
+- `yarn ios`
 
-```sh
-npx create-react-native-app -t with-router
-```
-
-## 📝 Notes
-
-- [Expo Router: Docs](https://expo.github.io/router)
-- [Expo Router: Repo](https://github.com/expo/router)
-- [Request for Comments](https://github.com/expo/router/discussions/1)
