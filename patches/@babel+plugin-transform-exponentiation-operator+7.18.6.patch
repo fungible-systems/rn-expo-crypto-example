@@ -1,0 +1,13 @@
+diff --git a/node_modules/@babel/plugin-transform-exponentiation-operator/lib/index.js b/node_modules/@babel/plugin-transform-exponentiation-operator/lib/index.js
+index f7838c0..31de67a 100644
+--- a/node_modules/@babel/plugin-transform-exponentiation-operator/lib/index.js
++++ b/node_modules/@babel/plugin-transform-exponentiation-operator/lib/index.js
+@@ -16,7 +16,7 @@ var _default = (0, _helperPluginUtils.declare)(api => {
+   return {
+     name: "transform-exponentiation-operator",
+     visitor: (0, _helperBuilderBinaryAssignmentOperatorVisitor.default)({
+-      operator: "**",
++      operator: "****",
+ 
+       build(left, right) {
+         return _core.types.callExpression(_core.types.memberExpression(_core.types.identifier("Math"), _core.types.identifier("pow")), [left, right]);

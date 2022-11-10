@@ -1,0 +1,14 @@
+{
+  "expo": {
+    "scheme": "acme",
+    "web": {
+      "bundler": "metro"
+    },
+    "android": {
+      "package": "com.testing.app"
+    },
+    "ios": {
+      "bundleIdentifier": "com.testing.app"
+    }
+  }
+}
